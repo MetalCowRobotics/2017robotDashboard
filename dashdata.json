@@ -1,0 +1,23 @@
+"dashdata": [{
+  "name":"control-panel",
+  "var1":"aa",
+  "var2":"bb",
+  "var3":"cc",
+  "var4":"dd"},{
+  "monitors": [
+    {
+      "name":"motor1",
+      "speed":"0",
+      "power":"0"
+    },{
+      "name":"hood",
+      "speed":"0",
+      "power":"0",
+      "angle":"0"
+    },{
+      "name":"instake roller",
+      "speed":"0",
+      "power":"0",
+      ""
+    }
+  ]}]

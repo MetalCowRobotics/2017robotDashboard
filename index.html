@@ -4,18 +4,20 @@
   <link rel="stylesheet" href="overall.css">
   <script src="populate.js"></script>
   <title>FRC 4213 Robot Dashboard</title>
+  <meta charset="UTF-8">
+  <script src="jquery-3.1.1.slim.js"></script>
+  <script type="text/javascript" src="sync.js"></script>
 </head>
 <body>
   <div class="anchored-menu"></div>
   <div class="wrapper">
     <div class="control-panel">
-      <div class="header">Robot Dashboard</div>
+      <div id="control-title">Robot Dashboard</div>
+      <div id="control-canvas"></div>
+      <div class="update-desc">Last updated:<span class="updated-timestamp"></span></div>
+      <button class="update-button" onClick="sync()">Update</button>
     </div>
-
-    <div class="update-button">Update</div>
-    <div class="update-desc">Last updated:<span class="last-updated"></span></div>
-
-    <div class="monitors">
+    <div id="monitors">
       <div class="box">
       </div>
     </div>
